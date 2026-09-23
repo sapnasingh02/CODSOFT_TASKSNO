@@ -1,171 +1,199 @@
-# 🌸 Iris Flower Classification Using Machine Learning
+# CodSoft Data Science Internship Projects
 
-## 📌 CodSoft Data Science Internship
+Welcome to my GitHub repository for the **CodSoft Data Science Internship**.
 
-This project is completed as part of my **CodSoft Data Science Internship**.
+This repository contains my Machine Learning and Data Science projects completed as part of my internship.
 
-The project focuses on building a Machine Learning classification model to predict the species of an Iris flower based on its physical measurements.
+## 👩‍💻 About Me
+
+**Name:** Sapna Singh  
+**Role:** BCA Graduate / Data Science Intern  
+**Domain:** Data Science & Machine Learning
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Google Colab
+- Jupyter Notebook
+- GitHub
 
 ---
 
-## 📖 Project Overview
+# 📂 Projects
 
-Iris Flower Classification is a beginner-level Machine Learning project.
+## 🌸 1. Iris Flower Classification
 
-The objective of this project is to classify Iris flowers into three different species:
+### Task
+**Task 3 – Iris Flower Classification**
 
-- Setosa
-- Versicolor
-- Virginica
+### Objective
 
-The classification is performed using four features:
+The objective of this project is to develop a Machine Learning model that can classify Iris flowers into different species based on their sepal and petal measurements.
+
+### Dataset
+
+The Iris dataset contains measurements of:
 
 - Sepal Length
 - Sepal Width
 - Petal Length
 - Petal Width
 
-A **Logistic Regression** model is used for classification.
-
----
-
-## 🎯 Objectives
-
-The main objectives of this project are:
-
-1. To understand and explore the Iris dataset.
-2. To perform basic data exploration.
-3. To visualize relationships between flower features.
-4. To prepare the data for Machine Learning.
-5. To split the dataset into training and testing data.
-6. To train a Logistic Regression classification model.
-7. To evaluate the model performance.
-8. To predict the species of a new Iris flower.
-
----
-
-## 🗂️ Dataset
-
-The Iris dataset contains **150 flower samples** belonging to three species:
-
-- Setosa
-- Versicolor
-- Virginica
-
-Each sample contains four numerical features:
-
-| Feature | Description |
-|---|---|
-| Sepal Length | Length of the sepal in centimeters |
-| Sepal Width | Width of the sepal in centimeters |
-| Petal Length | Length of the petal in centimeters |
-| Petal Width | Width of the petal in centimeters |
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- Google Colab
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+The target variable is the Iris flower species.
 
 ### Machine Learning Algorithm
 
-- Logistic Regression
+**Logistic Regression**
+
+### Project Steps
+
+- Load the Iris dataset
+- Explore the dataset
+- Prepare the features and target
+- Split the dataset into training and testing data
+- Train the Logistic Regression model
+- Evaluate the model
+- Make predictions for new flower measurements
+
+### Tools Used
+
+Python, Pandas, Matplotlib, Seaborn and Scikit-learn.
 
 ---
 
-## 🔍 Project Workflow
+# 🚢 2. Titanic Survival Prediction
 
-The project follows these Machine Learning steps:
+### Objective
 
-1. Import required libraries
-2. Load the Iris dataset
-3. Create a Pandas DataFrame
-4. Explore the dataset
-5. Check for missing values
-6. Visualize the data
-7. Select features and target
-8. Split the dataset into training and testing data
-9. Train the Logistic Regression model
-10. Make predictions
-11. Evaluate the model
-12. Predict a new Iris flower
+The objective of this project is to develop a Machine Learning model that predicts whether a passenger survived the Titanic disaster based on passenger-related information.
+
+### Dataset
+
+The dataset contains passenger information such as:
+
+- Passenger Class
+- Sex
+- Age
+- Fare
+- Number of Siblings/Spouses
+- Number of Parents/Children
+
+The target variable is **Survived**.
+
+### Machine Learning Approach
+
+The project includes:
+
+- Data loading
+- Data cleaning
+- Handling missing values
+- Exploratory Data Analysis
+- Feature selection
+- Train-test splitting
+- Machine Learning model training
+- Prediction
+- Model evaluation
+
+### Tools Used
+
+Python, Pandas, NumPy, Matplotlib, Seaborn and Scikit-learn.
 
 ---
 
-## 📊 Model Evaluation
+# 📈 3. Sales Prediction Using Python
+
+### Task
+**Task 4 – Sales Prediction Using Python**
+
+### Objective
+
+The objective of this project is to analyze the relationship between advertising expenditure and sales and develop a Machine Learning model to predict sales.
+
+### Dataset
+
+The dataset contains advertising expenditure for:
+
+- TV
+- Radio
+- Newspaper
+
+The target variable is:
+
+- Sales
+
+### Machine Learning Algorithm
+
+**Linear Regression**
+
+### Project Steps
+
+- Load the advertising dataset
+- Explore the dataset
+- Check missing values
+- Analyze the relationship between advertising expenditure and sales
+- Visualize the data
+- Select input features and target variable
+- Split the dataset into training and testing data
+- Train a Linear Regression model
+- Make sales predictions
+- Evaluate the model using regression metrics
+- Predict sales for a new advertising budget
+
+### Evaluation Metrics
 
 The model is evaluated using:
 
-- Accuracy Score
-- Classification Report
-- Confusion Matrix
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
 
-The model achieved **high accuracy on the selected test dataset in this experiment**.
+### Tools Used
 
----
-
-## 🌼 New Flower Prediction
-
-The trained model was also tested with a new Iris flower measurement:
-
-- Sepal Length = 5.1 cm
-- Sepal Width = 3.5 cm
-- Petal Length = 1.4 cm
-- Petal Width = 0.2 cm
-
-The model predicted the flower species as:
-
-**Setosa**
+Python, Pandas, NumPy, Matplotlib, Seaborn and Scikit-learn.
 
 ---
 
-## 📁 Project File
+# 📊 Skills Demonstrated
 
-The main project notebook is:
+Through these projects, I gained practical experience in:
 
-`Iris_Flower_Classification_ML_(1).ipynb`
-
-The notebook contains:
-
-- Project introduction
-- Dataset exploration
-- Data visualization
-- Machine Learning model
-- Predictions
-- Model evaluation
-- Confusion matrix
-- Conclusion
-
----
-
-## 🚀 Future Scope
-
-This project can be further improved by:
-
-- Comparing multiple Machine Learning algorithms
-- Using Random Forest, Decision Tree and K-Nearest Neighbors
-- Applying cross-validation
-- Building an interactive prediction application
-- Deploying the Machine Learning model as a web application
+- Python Programming
+- Data Cleaning
+- Data Preprocessing
+- Exploratory Data Analysis
+- Data Visualization
+- Feature Selection
+- Machine Learning
+- Classification
+- Regression
+- Model Evaluation
+- Data Interpretation
 
 ---
 
-## 👩‍💻 Author
+# 🎯 Internship Learning
 
-**Sapna Singh**
+These projects helped me understand the complete basic Machine Learning workflow:
 
-BCA Graduate | Data Science & Machine Learning Enthusiast
+**Data Collection → Data Cleaning → Data Exploration → Visualization → Feature Selection → Model Training → Prediction → Model Evaluation**
 
 ---
 
-## 📌 Internship
+# 📁 Repository Structure
 
-**CodSoft Data Science Internship**
-
-This project was developed for educational and internship purposes.
+```text
+CODSOFT_TASKSNO/
+│
+├── Iris_Flower_Classification_ML_(1).ipynb
+│
+├── Titanic_Survival_Prediction_ML_(1).ipynb
+│
+├── Sales_Prediction_ML.ipynb
+│
+└── README.md
